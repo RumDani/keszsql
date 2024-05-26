@@ -11,6 +11,7 @@ import textwrap
 from IPython.display import display
 from google_auth import get_logged_in_user_email, show_login_button
 from st_paywall import add_auth
+from authlib.integrations.requests_client import OAuth2Session
 
 # Adatbázis kapcsolat létrehozása
 conn = sqlite3.connect('emails.db')

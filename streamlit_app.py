@@ -5,7 +5,7 @@ import io
 import os
 import requests
 #import google.generativeai as genai
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 import pathlib
 import textwrap
 from IPython.display import display

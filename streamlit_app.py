@@ -4,7 +4,7 @@ import sqlite3
 import io
 import os
 import requests
-import google.generativeai as genai
+#import google.generativeai as genai
 from dotenv import load_dotenv
 import pathlib
 import textwrap
